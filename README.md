@@ -1,7 +1,7 @@
 # cool-batch-scripts
 A set of convenient CMD scripts, along with an AutoRun file
 
---
+---
 
 This is my tiny collection of CMD files I use for convenience.  
 
@@ -44,6 +44,6 @@ to customize your machine in the way you want, but always remember to
 know what you're doing. Being informed and reading the docs is what helps you
 building your dream machine while avoiding making it unusable.
 
-You can read more about AutoRun files here -> [](https://ss64.com/nt/syntax-autoexec.html)
+You can read more about AutoRun files here -> [https://ss64.com/nt/syntax-autoexec.html](https://ss64.com/nt/syntax-autoexec.html)
 
 **Happy tinkering 😊!**
