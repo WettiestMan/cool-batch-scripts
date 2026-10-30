@@ -7,7 +7,7 @@ This is my tiny collection of CMD files I use for convenience.
 
 It includes a script to be used as an AutoRun file: ```_dosrc.cmd```
 (My plan was to upload it as ```.dosrc.cmd``` since that's the original
-name of my AutoRun file, but usually dotfiles are hidden in *nix systems,
+name of my AutoRun file, but GitHub wouldn't let me for some reason,
 so it seems it couldn't be :( ), as well as a folder called ```dosfx```
 with scripts referenced by the AutoRun file to be run anywhere on CMD.
 
