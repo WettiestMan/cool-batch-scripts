@@ -1,5 +1,8 @@
 @echo off
 
+REM Used for debug stuff
+REM echo CMDCMDLINE=[%CMDCMDLINE%] >&2
+
 REM ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 REM .dosrc.cmd. My AutoRun file 😊
 REM
@@ -33,6 +36,10 @@ where sudo.exe >nul 2>nul && (
 
 where mingw32-make.exe > nul 2>&1 && (
     doskey make=mingw32-make.exe $*
+)
+
+where git-flow-v1.0.0-windows-amd64.exe > nul 2>&1 && (
+    doskey git-flow=git-flow-v1.0.0-windows-amd64.exe $*
 )
 
 REM Convenience scripts for CMD interactive sessions.
